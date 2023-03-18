@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="googlecloudstorage" policyName="GoogleCloudStorage1" policyTemplate="online_v1_basic">
+    <credentialName>CompletePolicyProjectGoogleCloudStorage_GoogleCloudStorage1</credentialName>
+    <applicationVersion>v1</applicationVersion>
+    <applicationType>online</applicationType>
+    <authenticationMethod>BASIC</authenticationMethod>
+    <bucketName>&lt;bucketname value&gt;</bucketName>
+  </policy>
+</policies>
