@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "BucketName": {
+        "displayOrder": 1,
+        "title": "Bucket name",
+        "description": "Specify a DNS-compliant name for a Google Cloud Storage bucket. For bucket naming guidelines, see https://cloud.google.com/storage/docs/naming-buckets.",
+        "display": {
+          "nameProperty": true
+        },
+        "type": "string"
+      },
+      "CreationDate": {
+        "displayOrder": 2,
+        "title": "Creation date",
+        "description": "The date when the bucket was created in ISO 8601 UTC format, YYYY-MM-DDTHH:MM:SSZ",
+        "type": "string",
+        "format": "date-time"
+      }
+    },
+    "title": "Bucket",
+    "additionalProperties": false
+  },
+  "type": "array",
+  "title": "Bucket"
+}

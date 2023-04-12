@@ -5,6 +5,6 @@
     <applicationVersion>v1</applicationVersion>
     <applicationType>online</applicationType>
     <authenticationMethod>BASIC</authenticationMethod>
-    <bucketName>&lt;bucketname value&gt;</bucketName>
+    <bucketName></bucketName>
   </policy>
 </policies>
